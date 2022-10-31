@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Home from "./Home";
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="text-center">
       <div>{name}</div>
       <button onClick={() => changeName("Ram")}>Change Name</button>
       <Home name="Ballo" print={() => console.log("Hi")} />
