@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div>{name}</div>
       <button onClick={() => changeName("Ram")}>Change Name</button>
-      <Home name="Ballo" />
+      <Home name="Ballo" print={() => console.log("Hi")} />
       <Home name="Varun" />
       <Home name="Sh" />
     </div>
